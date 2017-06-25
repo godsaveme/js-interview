@@ -328,9 +328,36 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 #### Testing Questions:
 
 * What are some advantages/disadvantages to testing your code?
+```
+Advantages
+----------
+- Implementing good practices on the team and on the software development
+- Decrease Bugs on the code
+- Make trust code on each integration phase
+- Increase the time on developing phase
+
+Disadvantages
+-------------
+- It takes more time to estimate a task even if you update some code
+```
+
 * What tools would you use to test your code's functionality?
+```
+Karma, Jasmine and Protractor
+```
+
 * What is the difference between a unit test and a functional/integration test?
+```
+Unit test ensures that your application has everything to start up correctly and
+functional/integration test ensures that the flows in your applications has a 
+correct behavior.
+```
+
 * What is the purpose of a code style linting tool?
+```
+- That all the programmers in the team are aligned to a standard way to write code.
+- Good practices.
+```
 
 #### Performance Questions:
 
