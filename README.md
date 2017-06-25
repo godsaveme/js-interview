@@ -147,14 +147,77 @@ like get, post, put and where it request came from adding the domain to your bac
 #### HTML Questions:
 
 * What does a `doctype` do?
+```
+Indicates the type of HTML that is gonna used.
+Example of html4
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+```
+
 * What's the difference between full standards mode, almost standards mode and quirks mode?
+```
+PENDING
+```
+
 * What's the difference between HTML and XHTML?
+```
+HTML is based on SGML and XHTML is based on XML, the differents are in the way that you
+write the tags or attributes depending of the rules for each kind.
+```
+
 * Are there any problems with serving pages as `application/xhtml+xml`?
+```
+PENDING
+```
+
 * How do you serve a page with content in multiple languages?
+```
+Using the lang attribute on each div or as the main html tag to wrapp all the content inside.
+```
+
 * What kind of things must you be wary of when design or developing for multilingual sites?
+```
+
+```
+
 * What are `data-` attributes good for?
+```
+For cconvention meaning because other coders will know that it is custom attribute
+```
+
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
+```
+video and audio, new data storage with more features to store objects, load elements on demand.
+```
+
 * Describe the difference between a `cookie`, `sessionStorage` and `localStorage`.
+```
+cookie
+------
+- 4kb
+- HTML4
+- It is accesible for any window
+- Storage location: Browser and server
+- Send to the server on the request
+
+sessionStorage
+--------------
+- 5mb
+- HTML5
+- It is accesible just for the same tab
+- Storage location: Browser
+- It can not be send it
+
+localStorage
+------------
+- 10mb
+- HTML5
+- It is accesible for any window
+- Storage location: Browser
+- It can not be send it
+
+
+
+```
 * Describe the difference between `<script>`, `<script async>` and `<script defer>`.
 * Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
 * What is progressive rendering?
