@@ -120,14 +120,14 @@ and give one or two advices only if its necessary.
 
 * What is Flash of Unstyled Content? How do you avoid FOUC?
 ```
-If the proccess that the browser use to load your page with the default styles before jump to to your styles.
-You can avoid this minizing your stylesheets or applying load on demand.
+If the proccess that the browser use to load your page with the default styles before jump to to your 
+styles. You can avoid this minizing your stylesheets or applying load on demand.
 ```
 
 * Explain what ARIA and screenreaders are, and how to make a website accessible.
 ```
-I dont have so much information about this but what i know is ARIA and screenreaders are helpers to blind
-users and the implementation of this makes the website accessible for more people.
+I dont have so much information about this but what i know is ARIA and screenreaders are helpers to 
+blind users and the implementation of this makes the website accessible for more people.
 ```
 
 * Explain some of the pros and cons for CSS animations versus JavaScript animations.
@@ -137,7 +137,10 @@ CSS animations use your video card and Javascript animations use the CPU memory.
 
 * What does CORS stand for and what issue does it address?
 ```
-CORS is cross origin 
+CORS is a security protocol that allows you to do request from one domain to another. By default, 
+browsers dont allow this communications and you need to enabled. You can specify request types 
+like get, post, put and where it request came from adding the domain to your backend.
+
 ```
 
 #### HTML Questions:
