@@ -63,17 +63,18 @@ npm
 * Can you describe your workflow when you create a web page?
 ```
 I started with a meeting with the client, listen their necessities and check what is his target, after 
-that I like to prepare some mockups on illustrator, showing boxes, titles, image spaces and the complete 
-flow of the web page, once the client accept it I start with the design, checking references, asking the 
-client for the manual logo if there is any or taking notes about his favorites colors. Then I have another 
-meeting with him to approved the design. Given these points, for me, the main objective in this first 
-implementation is to check over the internet wich kind of technology can fit better on the project (If i 
-do not have so much time, I should reduce the technology options for the only ones that I know better) 
-Once I have the technology, first, I started with the arquitecture and the name conventions, folder 
-structure, git repository, constants classes, helpers, basic navigation, responsive options by the same 
-token process of build automation, test environment and cross browsing. second, building main modules, 
-components, and flows coupled with css styles and unit test, third, making some main e2e test, cross browsing, 
-testing on mobile devices and check is some code needs refactor. In one word, there are some much steps :) 
+that I like to prepare some mockups on illustrator, showing boxes, titles, image spaces and the 
+complete flow of the web page, once the client accept it I start with the design, checking references, 
+asking the client for the manual logo if there is any or taking notes about his favorites colors. Then
+I have another meeting with him to approved the design. Given these points, for me, the main objective
+in this first implementation is to check over the internet wich kind of technology can fit better on 
+the project (If i do not have so much time, I should reduce the technology options for the only ones
+that I know better) Once I have the technology, first, I started with the arquitecture and the name
+conventions, folder structure, git repository, constants classes, helpers, basic navigation, 
+responsive options by the same token process of build automation, test environment and cross browsing.
+second, building main modules, components, and flows coupled with css styles and unit test, third,
+making some main e2e test, cross browsing, testing on mobile devices and check is some code needs 
+refactor. In one word, there are some much steps :) 
 ```
 
 * If you have 5 different stylesheets, how would you best integrate them into the site?
