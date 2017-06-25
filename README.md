@@ -43,12 +43,16 @@ developing the same technology.
 
 * What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
 ```
-Behance, responsive chrome addons for UI, OWASP for security, check google dev tools for performances or makewebfaster
+Behance, responsive chrome addons for UI, OWASP for security, check google dev tools for performances or 
+makewebfaster
 ```
 
 * Talk about your preferred development environment.
 ```
-From phisically space to software environment, I like a pillow for my back, confortable chair, bluetooth headphones, english keyboard, a mac with display or any external monitor, a window to see the exterior, natural light, a book to take notes, moving to software... I like to use Visual Studio Code, Chrome and iTerm. I think that completes the circle.
+From phisically space to software environment, I like a pillow for my back, confortable chair, bluetooth 
+headphones, english keyboard, a mac with display or any external monitor, a window to see the exterior, 
+natural light, a book to take notes, moving to software... I like to use Visual Studio Code, Chrome and 
+iTerm. I think that completes the circle.
 ```
 
 * Which version control systems are you familiar with?
@@ -58,31 +62,83 @@ npm
 
 * Can you describe your workflow when you create a web page?
 ```
-I started with a meeting with the client, listen their necessities and check what is his target, after that I like to prepare some mockups on illustrator, showing boxes, titles, image spaces and the complete flow of the web page, once the client accept it I start with the design, checking references, asking the client for the manual logo if there is any or taking notes about his favorites colors. Then I have another meeting with him to approved the design. Given these points, for me, the main objective in this first implementation is to check over the internet wich kind of technology can fit better on the project (If i do not have so much time, I should reduce the technology options for the only ones that I know better) Once I have the technology, first, I started with the arquitecture and the name conventions, folder structure, git repository, constants classes, helpers, basic navigation, responsive options by the same token process of build automation, test environment and cross browsing. second, building main modules, components, and flows coupled with css styles and unit test, third, making some main e2e test, cross browsing, testing on mobile devices and check is some code needs refactor. In one word, there are some much steps :) 
+I started with a meeting with the client, listen their necessities and check what is his target, after 
+that I like to prepare some mockups on illustrator, showing boxes, titles, image spaces and the complete 
+flow of the web page, once the client accept it I start with the design, checking references, asking the 
+client for the manual logo if there is any or taking notes about his favorites colors. Then I have another 
+meeting with him to approved the design. Given these points, for me, the main objective in this first 
+implementation is to check over the internet wich kind of technology can fit better on the project (If i 
+do not have so much time, I should reduce the technology options for the only ones that I know better) 
+Once I have the technology, first, I started with the arquitecture and the name conventions, folder 
+structure, git repository, constants classes, helpers, basic navigation, responsive options by the same 
+token process of build automation, test environment and cross browsing. second, building main modules, 
+components, and flows coupled with css styles and unit test, third, making some main e2e test, cross browsing, 
+testing on mobile devices and check is some code needs refactor. In one word, there are some much steps :) 
 ```
 
 * If you have 5 different stylesheets, how would you best integrate them into the site?
 ```
-I would like to review first the content in each stylesheet, in the final analysis I can determine the structure or make some modifications, but I think If you have 5 differents files the most common reason is to separate base variables, layouts, modules, components and some reset file, So I will put the base variables, reset file and layout on the core or commons of the application and modules and componente stylesheet in each folder that belongs.
+I would like to review first the content in each stylesheet, in the final analysis I can determine the 
+structure or make some modifications, but I think If you have 5 differents files the most common reason 
+is to separate base variables, layouts, modules, components and some reset file, So I will put the base 
+variables, reset file and layout on the core or commons of the application and modules and componente 
+stylesheet in each folder that belongs.
 ```
 
 * Can you describe the difference between progressive enhancement and graceful degradation?
 ```
-prograssive enhancements is the way that you code your website thinking about old browers and graceful degradation is the way that you code your website putting your all magic on there forgeeting about if its gonna looks good on IE8 or older version of any browser. In progressive enhancement you can add layer of implementations like other CSS in order to see you web working with all the fancy stuffs and in graceful degration you can add modernzr or pollyfils too to see your webpage working on older browsers.
+prograssive enhancements is the way that you code your website thinking about old browers and graceful 
+degradation is the way that you code your website putting your all magic on there forgeeting about if 
+its gonna looks good on IE8 or older version of any browser. In progressive enhancement you can add 
+layer of implementations like other CSS in order to see you web working with all the fancy stuffs and 
+in graceful degration you can add modernzr or pollyfils too to see your webpage working on older 
+browsers.
 ```
 
 * How would you optimize a website's assets/resources?
+```
+minify js, css and html, using an sprite to images, using svg instead of png, getting some resources 
+from some public cdn, adding cachebust or similar, putting all this resources in another server.
+```
+
 * How many resources will a browser download from a given domain at a time?
   * What are the exceptions?
+
 * Name 3 ways to decrease page load (perceived or actual load time).
+```
+1. Load on demand 
+2. Adding cache to the server configuration
+3. Enable compression
+```
+
 * If you jumped on a project and they used tabs and you used spaces, what would you do?
-* Describe how you would create a simple slideshow page.
-* If you could master one technology this year, what would it be?
-* Explain the importance of standards and standards bodies.
+```
+I will say to myself, I was wrong all the time, Nop, I mean I understand the question, I will first
+start with a litle talk with one or two colleagues on the team to understand the reason, just listen 
+and give one or two advices only if its necessary.
+```
+
 * What is Flash of Unstyled Content? How do you avoid FOUC?
+```
+If the proccess that the browser use to load your page with the default styles before jump to to your styles.
+You can avoid this minizing your stylesheets or applying load on demand.
+```
+
 * Explain what ARIA and screenreaders are, and how to make a website accessible.
+```
+I dont have so much information about this but what i know is ARIA and screenreaders are helpers to blind
+users and the implementation of this makes the website accessible for more people.
+```
+
 * Explain some of the pros and cons for CSS animations versus JavaScript animations.
+```
+CSS animations use your video card and Javascript animations use the CPU memory.
+```
+
 * What does CORS stand for and what issue does it address?
+```
+CORS is cross origin 
+```
 
 #### HTML Questions:
 
