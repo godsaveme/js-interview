@@ -36,7 +36,9 @@ Makes me think better and I like the satisfaction after resolving a bug
 
 * What is a recent technical challenge you experienced and how did you solve it?
 ```
-About how to jump to a new javascript framework and do task with estimated time, I've resolved with a meeting with my co-workers, investigation at home, taking advices from colleagues and subscribe to people developing the same technology.
+About how to jump to a new javascript framework and do task with estimated time, I've resolved with a 
+meeting with my co-workers, investigation at home, taking advices from colleagues and subscribe to people 
+developing the same technology.
 ```
 
 * What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
