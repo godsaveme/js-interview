@@ -176,7 +176,7 @@ Using the lang attribute on each div or as the main html tag to wrapp all the co
 
 * What kind of things must you be wary of when design or developing for multilingual sites?
 ```
-
+PENDING
 ```
 
 * What are `data-` attributes good for?
@@ -214,14 +214,25 @@ localStorage
 - It is accesible for any window
 - Storage location: Browser
 - It can not be send it
-
-
-
 ```
+
 * Describe the difference between `<script>`, `<script async>` and `<script defer>`.
 * Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
+```
+Because the browser reads from the top to the bottom and renders in that direction,
+maybe some javascripts needs the complete DOM tag to work with the them.
+```
+
 * What is progressive rendering?
+```
+Its a way to find better ways to rendering things on demand, like lazy loading images
+```
+
 * Have you used different HTML templating languages before?
+```
+PENDING
+```
+
 
 #### CSS Questions:
 
