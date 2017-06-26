@@ -524,6 +524,12 @@ setTimeout(function() {
 console.log('three');
 ```
 
+```javascript
+// one
+// three
+// two
+```
+
 #### Fun Questions:
 
 * What's a cool project that you've recently worked on?
