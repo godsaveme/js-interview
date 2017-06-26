@@ -346,10 +346,15 @@ The third one is an instance of an object Person
 
 * What's the difference between `.call` and `.apply`?
 ```
-
+"A for array and C for comma."
+Apply accepts an array of elements and Call requires the parameters listed explicity
 ```
 
 * Explain `Function.prototype.bind`.
+```
+PENDING
+```
+
 * When would you use `document.write()`?
 ```
 Posibly at the third parties that need to write something on the document like analitycs
@@ -361,10 +366,13 @@ old code or something like that.
 * What are the advantages and disadvantages of using Ajax?
 * Explain how JSONP works (and how it's not really Ajax).
 * Have you ever used JavaScript templating?
+  ```
+  Nope
+  ```
   * If so, what libraries have you used?
-```
-  Nop, I really dont like it but I've experimenting with Jade.
-```
+  ```
+  I really dont like it but I've experimenting with Jade.
+  ```
 
 * Explain "hoisting".
 ```
