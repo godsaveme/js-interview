@@ -233,7 +233,6 @@ Its a way to find better ways to rendering things on demand, like lazy loading i
 PENDING
 ```
 
-
 #### CSS Questions:
 
 * What is the difference between classes and IDs in CSS?
@@ -274,10 +273,22 @@ PENDING
 
 * Explain event delegation
 * Explain how `this` works in JavaScript
+```
+'This' contains the whole context in javascript.
+```
+
 * Explain how prototypal inheritance works
+
 * What do you think of AMD vs CommonJS?
 * Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
+```
+PENDING
+```
   * What needs to be changed to properly make it an IIFE?
+  ```
+  PENDING
+  ```
+
 * What's the difference between a variable that is: `null`, `undefined` or undeclared?
   * How would you go about checking for any of these states?
 * What is a closure, and how/why would you use one?
@@ -285,28 +296,65 @@ PENDING
 * How do you organize your code? (module pattern, classical inheritance?)
 * What's the difference between host objects and native objects?
 * Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
+```
+The first one is a method that you can invoke using Person();
+The second one is a variable that save the returning value from Person() method;
+The third one is an instance of an object Person
+```
+
 * What's the difference between `.call` and `.apply`?
+```
+PENDING
+```
+
 * Explain `Function.prototype.bind`.
 * When would you use `document.write()`?
+```
+Posibly at the third parties that need to write something on the document like analitycs
+old code or something like that.
+```
+
 * What's the difference between feature detection, feature inference, and using the UA string?
 * Explain Ajax in as much detail as possible.
 * What are the advantages and disadvantages of using Ajax?
 * Explain how JSONP works (and how it's not really Ajax).
 * Have you ever used JavaScript templating?
   * If so, what libraries have you used?
+```
+  Nop, I really dont like it but I've experimenting with Jade.
+```
+
 * Explain "hoisting".
+```
+Hoisting is the way that javascript has to declare variables at the top of your lines of code.
+```
+
 * Describe event bubbling.
 * What's the difference between an "attribute" and a "property"?
 * Why is extending built-in JavaScript objects not a good idea?
 * Difference between document load event and document DOMContentLoaded event?
 * What is the difference between `==` and `===`?
+```
+The first one indicates abstract equality and the second one indicates strict equality.
+The first one checks the value of the item that are comparing
+The second one checks for the value and the object itself and return true is they are totally 
+equal and not converted like the first one.
+```
+
 * Explain the same-origin policy with regards to JavaScript.
 * Make this work:
 ```javascript
 duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 ```
 * Why is it called a Ternary expression, what does the word "Ternary" indicate?
+
 * What is `"use strict";`? what are the advantages and disadvantages to using it?
+```
+use stricts indicates that the document has to be readed by the browser in a strict mode.
+The advantages is that it makes code with strict syntax avoiding posible errors
+The one disadvantages could be that it can not allows you some flexibility
+```
+
 * Create a for loop that iterates up to `100` while outputting **"fizz"** at multiples of `3`, **"buzz"** at multiples of `5` and **"fizzbuzz"** at multiples of `3` and `5`
 * Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?
 * Why would you use something like the `load` event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?
@@ -315,6 +363,10 @@ duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
 * What are the pros and cons of using Promises instead of callbacks?
 * What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?
 * What tools and techniques do you use debugging JavaScript code?
+```
+Chrome dev tools
+```
+
 * What language constructions do you use for iterating over object properties and array items?
 * Explain the difference between mutable and immutable objects.
   * What is an example of an immutable object in JavaScript?
