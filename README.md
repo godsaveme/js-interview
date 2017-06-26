@@ -438,10 +438,22 @@ correct behavior.
 var foo = 10 + '20';
 ```
 
+```javascript
+"1020"
+```
+
 *Question: How would you make this work?*
 ```javascript
 add(2, 5); // 7
 add(2)(5); // 7
+```
+
+```javascript
+function add(a) {
+  return function(b) {
+    return a + b;
+  }
+}
 ```
 
 *Question: What value is returned from the following statement?*
@@ -449,9 +461,20 @@ add(2)(5); // 7
 "i'm a lasagna hog".split("").reverse().join("");
 ```
 
+```javascript
+// First its gonna split every single character into an array, including spaces
+// Second its gonna re-order the items in a reverse way
+// Finally its gonna join every single item in one string
+"goh angasal a m'i"
+```
+
 *Question: What is the value of `window.foo`?*
 ```javascript
 ( window.foo || ( window.foo = "bar" ) );
+```
+
+```javascript
+>> bar
 ```
 
 *Question: What is the outcome of the two alerts below?*
@@ -464,6 +487,12 @@ var foo = "Hello";
 alert(foo + bar);
 ```
 
+```javascript
+>> Hello World
+// The second alert its gonna trough an error since the var value its 
+// only declared inside the iife function
+```
+
 *Question: What is the value of `foo.length`?*
 ```javascript
 var foo = [];
@@ -471,11 +500,19 @@ foo.push(1);
 foo.push(2);
 ```
 
+```javascript
+// 2
+```
+
 *Question: What is the value of `foo.x`?*
 ```javascript
 var foo = {n: 1};
 var bar = foo;
 foo.x = foo = {n: 2};
+```
+
+```javascript
+// undefined > BUT it need some research
 ```
 
 *Question: What does the following code print?*
