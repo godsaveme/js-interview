@@ -363,6 +363,9 @@ old code or something like that.
 
 * What's the difference between feature detection, feature inference, and using the UA string?
 * Explain Ajax in as much detail as possible.
+```
+
+```
 * What are the advantages and disadvantages of using Ajax?
 * Explain how JSONP works (and how it's not really Ajax).
 * Have you ever used JavaScript templating?
@@ -380,6 +383,10 @@ Hoisting is the way that javascript has to declare variables at the top of your 
 ```
 
 * Describe event bubbling.
+```
+Event bubbling is how an event its executing other parent elements
+that has another event.
+```
 * What's the difference between an "attribute" and a "property"?
 * Why is extending built-in JavaScript objects not a good idea?
 * Difference between document load event and document DOMContentLoaded event?
@@ -417,6 +424,21 @@ The one disadvantages could be that it can not allows you some flexibility
 Chrome dev tools
 ```
 
+* What is async an await?
+```javascript
+//This new features offers you much cleaner code. Example
+async function sample() {
+  try {
+    const people : await service.getPeople();
+    const places : await service.getPlaces();
+    console.log(people.data, places.data);
+  } catch(err) {
+    console.log(err);
+  }
+
+  sample();
+}
+```
 * What language constructions do you use for iterating over object properties and array items?
 * Explain the difference between mutable and immutable objects.
   * What is an example of an immutable object in JavaScript?
