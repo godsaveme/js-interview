@@ -280,22 +280,63 @@ PENDING
 * Explain how prototypal inheritance works
 
 * What do you think of AMD vs CommonJS?
+```
+AMD is really great on big application for its async way to load files and 
+CommonJS is really greato to small application because it converts all
+your files in one.
+```
+
 * Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
 ```
-- Because it has a name
-- It doesnt have the correct sintax for a IIFE
+Because it doesnt have the correct syntax, also a IIFE doesnt have to be named
+since they are self-invoke methods.
 ```
   * What needs to be changed to properly make it an IIFE?
-  ```
-  PENDING
+  ```javascript
+  // Adding and removing some code:
+  (function() {
+    ...
+  })();
   ```
 
 * What's the difference between a variable that is: `null`, `undefined` or undeclared?
+```
+- null is an assignment value that you can assigned as a representation of non value
+- null is an object
+
+- undefined is variable that has been declared but without any value
+- undefined is a type itself 
+
+- undeclared is when a variable is not declared using 'VAR' for that reasons it is 
+  created on the window object like as a global.
+```
+
   * How would you go about checking for any of these states?
+  ```
+  Using typeof for undefined and null
+  And I can check if a variable is undeclared maybe calling it from any place of the code
+  ```
+
 * What is a closure, and how/why would you use one?
+```
+```
+
 * What's a typical use case for anonymous functions?
+```
+- To assigned to a variable, like when your are using a map, filter, etc
+- To IIFE functions.
+```
+
 * How do you organize your code? (module pattern, classical inheritance?)
+```
+PENDING
+```
+
 * What's the difference between host objects and native objects?
+```
+PENDING
+```
+
 * Difference between: `function Person(){}`, `var person = Person()`, and `var person = new Person()`?
 ```
 The first one is a method that you can invoke using Person();
@@ -305,10 +346,15 @@ The third one is an instance of an object Person
 
 * What's the difference between `.call` and `.apply`?
 ```
-PENDING
+"A for array and C for comma."
+Apply accepts an array of elements and Call requires the parameters listed explicity
 ```
 
 * Explain `Function.prototype.bind`.
+```
+PENDING
+```
+
 * When would you use `document.write()`?
 ```
 Posibly at the third parties that need to write something on the document like analitycs
@@ -320,10 +366,13 @@ old code or something like that.
 * What are the advantages and disadvantages of using Ajax?
 * Explain how JSONP works (and how it's not really Ajax).
 * Have you ever used JavaScript templating?
+  ```
+  Nope
+  ```
   * If so, what libraries have you used?
-```
-  Nop, I really dont like it but I've experimenting with Jade.
-```
+  ```
+  I really dont like it but I've experimenting with Jade.
+  ```
 
 * Explain "hoisting".
 ```
