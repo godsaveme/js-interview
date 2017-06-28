@@ -282,7 +282,8 @@ PENDING
 * What do you think of AMD vs CommonJS?
 * Explain why the following doesn't work as an IIFE: `function foo(){ }();`.
 ```
-PENDING
+- Because it has a name
+- It doesnt have the correct sintax for a IIFE
 ```
   * What needs to be changed to properly make it an IIFE?
   ```
