@@ -236,29 +236,100 @@ PENDING
 #### CSS Questions:
 
 * What is the difference between classes and IDs in CSS?
+```
+An ID has more relevance rather than a class
+An ID should use in only one place of the DOM using good practices, a classs can be duplicated
+An ID has diferent selector # than a class .
+```
+
 * What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
+```
+Resetings puts every single element with 0 styles, normalizing makes your default styles being normalized with
+the differents broweser navigators.
+
+I would choose normalizing, because its more simply and faster, and Its one resource less to load.
+```
+
 * Describe Floats and how they work.
+```
+It makes your div floating to the left or right with out having any dependency with other div.
+```
+
 * Describe z-index and how stacking context is formed.
+```
+Z-index is a feature that allows you to put your div in front or back from any other element.
+```
+
 * Describe BFC(Block Formatting Context) and how it works.
 * What are the various clearing techniques and which is appropriate for what context?
 * Explain CSS sprites, and how you would implement them on a page or site.
+```
+CSS Sprites are images files where you can put all your images together to avoid to download
+every single one as a separate file. I've implemented this solution on my websites to make it 
+faster. And the way of use it is simple, just add some css features to hande background properties
+on my divs and is done.
+```
+
 * What are your favourite image replacement techniques and which do you use when?
 * How would you approach fixing browser-specific styling issues?
 * How do you serve your pages for feature-constrained browsers?
   * What techniques/processes do you use?
 * What are the different ways to visually hide content (and make it available only for screen readers)?
 * Have you ever used a grid system, and if so, what do you prefer?
+```
+I preffer to use bootstrap because there is an active community and the simple way of use it.
+```
+
 * Have you used or implemented media queries or mobile specific layouts/CSS?
+```
+Yes, I like to define my own breakpoint resolutions and work before them.
+```
+
 * Are you familiar with styling SVG?
+```
+Yes, SVG is usefull to avoid losing 
+```
+
 * How do you optimize your webpages for print?
 * What are some of the "gotchas" for writing efficient CSS?
 * What are the advantages/disadvantages of using CSS preprocessors?
+```
+a: more legible code
+a: variables centralized on one file avoids using different colors
+a: minify the files automatically
+a: quick code writting
+
+d: king of dificult to debug
+```
   * Describe what you like and dislike about the CSS preprocessors you have used.
+  ```
+  l: clean code
+  l: import files
+  d: difficult to debug
+  ```
+
 * How would you implement a web design comp that uses non-standard fonts?
 * Explain how a browser determines what elements match a CSS selector.
+```
+The browser identifies the '#' and '.' characters to apply some styles
+```
+
 * Describe pseudo-elements and discuss what they are used for.
+```
+Pseudo-elements are like an extentions of elements features that you can
+use to getting deeper. 
+```
+
 * Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
 * What does ```* { box-sizing: border-box; }``` do? What are its advantages?
+```
+Adds to every single DOM element the 'border-box' feature. If you want to assing a widht or heigt to your div
+you should consider that border-box its gonna add the value of the witdh to the div without being affect by
+the padding of the inner div or component.
+
+a: It keeps your div meassures values statics
+```
+
 * List as many values for the display property that you can remember.
 * What's the difference between inline and inline-block?
 * What's the difference between a relative, fixed, absolute and statically positioned element?
