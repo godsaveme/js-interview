@@ -616,6 +616,7 @@ New boston schools, beau Javascript
 
 * Do you have any pet projects? What kind?
 ```
+nope :(
 ```
 
 * What's your favorite feature of Internet Explorer?
